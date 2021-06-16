@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0340C7C2679EB5400BF0080 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0340C7B2679EB5400BF0080 /* DDGLocation.swift */; };
+		A0A5E7022676F7930051C113 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5E7012676F7930051C113 /* LocationCell.swift */; };
+		A0A5E7082676F8170051C113 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5E7072676F8170051C113 /* LocationListView.swift */; };
+		A0A5E70A2676F8260051C113 /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5E7092676F8260051C113 /* CustomModifiers.swift */; };
 		C2D50973265CC2390012BFC1 /* DubDubGrubApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D50972265CC2390012BFC1 /* DubDubGrubApp.swift */; };
 		C2D50977265CC23A0012BFC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D50976265CC23A0012BFC1 /* Assets.xcassets */; };
 		C2D5097A265CC23A0012BFC1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2D50979265CC23A0012BFC1 /* Preview Assets.xcassets */; };
@@ -14,17 +18,18 @@
 		C2D50986265CC41B0012BFC1 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D50985265CC41B0012BFC1 /* Color+Ext.swift */; };
 		C2D50988265CC4740012BFC1 /* AppTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D50987265CC4740012BFC1 /* AppTabView.swift */; };
 		C2D5098A265CC4B30012BFC1 /* LocationMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D50989265CC4B30012BFC1 /* LocationMapView.swift */; };
-		C2D5098C265CC4D00012BFC1 /* LocationListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5098B265CC4D00012BFC1 /* LocationListView.swift */; };
 		C2D5098E265CC4DE0012BFC1 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2D5098D265CC4DE0012BFC1 /* ProfileView.swift */; };
-		E5CD0672266D922500ED89AD /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD0671266D922500ED89AD /* LocationCell.swift */; };
 		E5CD0674266D924E00ED89AD /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD0673266D924E00ED89AD /* AvatarView.swift */; };
-		E5CD0676266D947E00ED89AD /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD0675266D947E00ED89AD /* CustomModifiers.swift */; };
 		E5CD0678266D94A300ED89AD /* View+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD0677266D94A300ED89AD /* View+Ext.swift */; };
 		E5CD067A266D955E00ED89AD /* DDGButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5CD0679266D955E00ED89AD /* DDGButton.swift */; };
 		E5F5C0642660C8AA00BBBAE1 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F5C0632660C8AA00BBBAE1 /* LocationDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0340C7B2679EB5400BF0080 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		A0A5E7012676F7930051C113 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
+		A0A5E7072676F8170051C113 /* LocationListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
+		A0A5E7092676F8260051C113 /* CustomModifiers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		C2D5096F265CC2390012BFC1 /* DubDubGrub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DubDubGrub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2D50972265CC2390012BFC1 /* DubDubGrubApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DubDubGrubApp.swift; sourceTree = "<group>"; };
 		C2D50976265CC23A0012BFC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -35,11 +40,8 @@
 		C2D50985265CC41B0012BFC1 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		C2D50987265CC4740012BFC1 /* AppTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTabView.swift; sourceTree = "<group>"; };
 		C2D50989265CC4B30012BFC1 /* LocationMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapView.swift; sourceTree = "<group>"; };
-		C2D5098B265CC4D00012BFC1 /* LocationListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListView.swift; sourceTree = "<group>"; };
 		C2D5098D265CC4DE0012BFC1 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
-		E5CD0671266D922500ED89AD /* LocationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		E5CD0673266D924E00ED89AD /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
-		E5CD0675266D947E00ED89AD /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 		E5CD0677266D94A300ED89AD /* View+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Ext.swift"; sourceTree = "<group>"; };
 		E5CD0679266D955E00ED89AD /* DDGButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGButton.swift; sourceTree = "<group>"; };
 		E5F5C0632660C8AA00BBBAE1 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A0340C7A2679EB4800BF0080 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A0340C7B2679EB5400BF0080 /* DDGLocation.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A0A5E7002676F7930051C113 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A0A5E7012676F7930051C113 /* LocationCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		C2D50966265CC2390012BFC1 = {
 			isa = PBXGroup;
 			children = (
@@ -77,6 +95,7 @@
 		C2D50971265CC2390012BFC1 /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				A0340C7A2679EB4800BF0080 /* Model */,
 				E5CD067B266D967A00ED89AD /* Extensions */,
 				E5CD067C266D969100ED89AD /* Views */,
 				C2D50981265CC28E0012BFC1 /* DubDubGrub.entitlements */,
@@ -116,9 +135,9 @@
 		E5CD067C266D969100ED89AD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E5CD0675266D947E00ED89AD /* CustomModifiers.swift */,
+				A0A5E7092676F8260051C113 /* CustomModifiers.swift */,
 				E5CD067F266D96E600ED89AD /* CustomViews */,
-				E5CD067E266D96DA00ED89AD /* Cells */,
+				A0A5E7002676F7930051C113 /* Cells */,
 				E5CD067D266D969B00ED89AD /* Screens */,
 			);
 			path = Views;
@@ -129,19 +148,11 @@
 			children = (
 				C2D50987265CC4740012BFC1 /* AppTabView.swift */,
 				C2D50989265CC4B30012BFC1 /* LocationMapView.swift */,
-				C2D5098B265CC4D00012BFC1 /* LocationListView.swift */,
+				A0A5E7072676F8170051C113 /* LocationListView.swift */,
 				E5F5C0632660C8AA00BBBAE1 /* LocationDetailView.swift */,
 				C2D5098D265CC4DE0012BFC1 /* ProfileView.swift */,
 			);
 			path = Screens;
-			sourceTree = "<group>";
-		};
-		E5CD067E266D96DA00ED89AD /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				E5CD0671266D922500ED89AD /* LocationCell.swift */,
-			);
-			path = Cells;
 			sourceTree = "<group>";
 		};
 		E5CD067F266D96E600ED89AD /* CustomViews */ = {
@@ -223,16 +234,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D5098A265CC4B30012BFC1 /* LocationMapView.swift in Sources */,
-				E5CD0676266D947E00ED89AD /* CustomModifiers.swift in Sources */,
 				C2D50973265CC2390012BFC1 /* DubDubGrubApp.swift in Sources */,
-				C2D5098C265CC4D00012BFC1 /* LocationListView.swift in Sources */,
 				E5F5C0642660C8AA00BBBAE1 /* LocationDetailView.swift in Sources */,
+				A0A5E7022676F7930051C113 /* LocationCell.swift in Sources */,
 				C2D50988265CC4740012BFC1 /* AppTabView.swift in Sources */,
+				A0340C7C2679EB5400BF0080 /* DDGLocation.swift in Sources */,
 				C2D5098E265CC4DE0012BFC1 /* ProfileView.swift in Sources */,
 				E5CD0678266D94A300ED89AD /* View+Ext.swift in Sources */,
-				E5CD0672266D922500ED89AD /* LocationCell.swift in Sources */,
 				E5CD067A266D955E00ED89AD /* DDGButton.swift in Sources */,
 				E5CD0674266D924E00ED89AD /* AvatarView.swift in Sources */,
+				A0A5E70A2676F8260051C113 /* CustomModifiers.swift in Sources */,
+				A0A5E7082676F8170051C113 /* LocationListView.swift in Sources */,
 				C2D50986265CC41B0012BFC1 /* Color+Ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
