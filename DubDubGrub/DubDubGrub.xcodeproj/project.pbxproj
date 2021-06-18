@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		A0340C7C2679EB5400BF0080 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0340C7B2679EB5400BF0080 /* DDGLocation.swift */; };
+		A047CA47267D616A005732B4 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047CA46267D616A005732B4 /* CloudKitManager.swift */; };
+		A047CA49267D624E005732B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047CA48267D624E005732B4 /* Constants.swift */; };
+		A047CA4B267D6579005732B4 /* CKRecord+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047CA4A267D6579005732B4 /* CKRecord+Ext.swift */; };
 		A06D868F267C68EC009BD101 /* DDGProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D868E267C68EC009BD101 /* DDGProfile.swift */; };
 		A06D8691267C6A6E009BD101 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A06D8690267C6A6E009BD101 /* MockData.swift */; };
 		A0A5E7022676F7930051C113 /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A5E7012676F7930051C113 /* LocationCell.swift */; };
@@ -29,6 +32,9 @@
 
 /* Begin PBXFileReference section */
 		A0340C7B2679EB5400BF0080 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
+		A047CA46267D616A005732B4 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
+		A047CA48267D624E005732B4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A047CA4A267D6579005732B4 /* CKRecord+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CKRecord+Ext.swift"; sourceTree = "<group>"; };
 		A06D868E267C68EC009BD101 /* DDGProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGProfile.swift; sourceTree = "<group>"; };
 		A06D8690267C6A6E009BD101 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 		A0A5E7012676F7930051C113 /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
@@ -73,6 +79,16 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		A047CA45267D6139005732B4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				E5CD067B266D967A00ED89AD /* Extensions */,
+				A047CA46267D616A005732B4 /* CloudKitManager.swift */,
+				A047CA48267D624E005732B4 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		A0A5E7002676F7930051C113 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -101,8 +117,8 @@
 		C2D50971265CC2390012BFC1 /* DubDubGrub */ = {
 			isa = PBXGroup;
 			children = (
+				A047CA45267D6139005732B4 /* Utilities */,
 				A0340C7A2679EB4800BF0080 /* Model */,
-				E5CD067B266D967A00ED89AD /* Extensions */,
 				E5CD067C266D969100ED89AD /* Views */,
 				C2D50981265CC28E0012BFC1 /* DubDubGrub.entitlements */,
 				C2D50972265CC2390012BFC1 /* DubDubGrubApp.swift */,
@@ -134,6 +150,7 @@
 			children = (
 				C2D50985265CC41B0012BFC1 /* Color+Ext.swift */,
 				E5CD0677266D94A300ED89AD /* View+Ext.swift */,
+				A047CA4A267D6579005732B4 /* CKRecord+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -240,6 +257,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C2D5098A265CC4B30012BFC1 /* LocationMapView.swift in Sources */,
+				A047CA49267D624E005732B4 /* Constants.swift in Sources */,
 				C2D50973265CC2390012BFC1 /* DubDubGrubApp.swift in Sources */,
 				E5F5C0642660C8AA00BBBAE1 /* LocationDetailView.swift in Sources */,
 				A0A5E7022676F7930051C113 /* LocationCell.swift in Sources */,
@@ -249,8 +267,10 @@
 				A0340C7C2679EB5400BF0080 /* DDGLocation.swift in Sources */,
 				C2D5098E265CC4DE0012BFC1 /* ProfileView.swift in Sources */,
 				E5CD0678266D94A300ED89AD /* View+Ext.swift in Sources */,
+				A047CA47267D616A005732B4 /* CloudKitManager.swift in Sources */,
 				E5CD067A266D955E00ED89AD /* DDGButton.swift in Sources */,
 				E5CD0674266D924E00ED89AD /* AvatarView.swift in Sources */,
+				A047CA4B267D6579005732B4 /* CKRecord+Ext.swift in Sources */,
 				A0A5E70A2676F8260051C113 /* CustomModifiers.swift in Sources */,
 				A0A5E7082676F8170051C113 /* LocationListView.swift in Sources */,
 				C2D50986265CC41B0012BFC1 /* Color+Ext.swift in Sources */,
