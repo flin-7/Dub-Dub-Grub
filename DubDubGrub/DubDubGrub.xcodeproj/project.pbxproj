@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0309F31267FF670009B3EC7 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0309F30267FF670009B3EC7 /* AlertItem.swift */; };
 		A0340C7C2679EB5400BF0080 /* DDGLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0340C7B2679EB5400BF0080 /* DDGLocation.swift */; };
 		A047CA47267D616A005732B4 /* CloudKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047CA46267D616A005732B4 /* CloudKitManager.swift */; };
 		A047CA49267D624E005732B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A047CA48267D624E005732B4 /* Constants.swift */; };
@@ -31,6 +32,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A0309F30267FF670009B3EC7 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
 		A0340C7B2679EB5400BF0080 /* DDGLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DDGLocation.swift; sourceTree = "<group>"; };
 		A047CA46267D616A005732B4 /* CloudKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudKitManager.swift; sourceTree = "<group>"; };
 		A047CA48267D624E005732B4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -85,6 +87,7 @@
 				E5CD067B266D967A00ED89AD /* Extensions */,
 				A047CA46267D616A005732B4 /* CloudKitManager.swift */,
 				A047CA48267D624E005732B4 /* Constants.swift */,
+				A0309F30267FF670009B3EC7 /* AlertItem.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				C2D5098E265CC4DE0012BFC1 /* ProfileView.swift in Sources */,
 				E5CD0678266D94A300ED89AD /* View+Ext.swift in Sources */,
 				A047CA47267D616A005732B4 /* CloudKitManager.swift in Sources */,
+				A0309F31267FF670009B3EC7 /* AlertItem.swift in Sources */,
 				E5CD067A266D955E00ED89AD /* DDGButton.swift in Sources */,
 				E5CD0674266D924E00ED89AD /* AvatarView.swift in Sources */,
 				A047CA4B267D6579005732B4 /* CKRecord+Ext.swift in Sources */,
