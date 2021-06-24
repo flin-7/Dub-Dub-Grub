@@ -38,6 +38,7 @@ struct LocationMapView: View {
 struct LoactionMapView_Previews: PreviewProvider {
     static var previews: some View {
         LocationMapView()
+            .environmentObject(LocationManager())
     }
 }
 
